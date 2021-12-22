@@ -63,7 +63,7 @@ Command to login to the K8s cluster from Cloud Shell
 `kubectl get services`
 
 ### Deploy an image
-`kubectl run spring-boot-example --image=gcr.io/$GOOGLE_CLOUD_PROJECT/spring-boot-example:v1 --port=8080`
+`kubectl create deployment spring-boot-example --image=gcr.io/$GOOGLE_CLOUD_PROJECT/spring-boot-example:v1 --port=8080`
 
 ### Expose Load Balancer
 `kubectl expose deployment spring-boot-example --type=LoadBalancer`
