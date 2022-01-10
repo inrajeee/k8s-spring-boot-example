@@ -53,6 +53,8 @@ Command to login to the K8s cluster from Cloud Shell
 `gcloud container clusters get-credentials techprimer-cluster-1 --zone  us-central1-a`
 
 ## Kubernetes Commands
+### List Pods,Services,Deployment,etc all in one command
+`kubectl get all`
 ### List Pods
 `kubectl get pods`
 
